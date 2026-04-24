@@ -116,7 +116,7 @@ function Home() {
             </div>
             <div className="detail-item">
               <span className="detail-label">GitHub</span>
-              <a href={ME.github} target="_blank" rel="noopener noreferrer" className="detail-link">github.com/mahi21tha</a>
+              <a href={ME.github} target="_blank" rel="noopener noreferrer" className="detail-link">github.com/21mahitha</a>
             </div>
             <div className="detail-item">
               <span className="detail-label">LinkedIn</span>
