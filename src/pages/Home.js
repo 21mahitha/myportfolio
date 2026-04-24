@@ -2,7 +2,7 @@ import React from 'react';
 import './Home.css';
 
 const ME = {
-  name: 'Mahitha Kypu',
+  name: 'Mahitha ',
   personalEmail: 'kypu.mahitha@gmail.com',
   github: 'https://github.com/21mahitha',
   linkedin: 'https://linkedin.com/in/kypu',
