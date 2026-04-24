@@ -4,7 +4,7 @@ import './Home.css';
 const ME = {
   name: 'Mahitha Kypu',
   personalEmail: 'kypu.mahitha@gmail.com',
-  github: 'https://github.com/mahi21tha',
+  github: 'https://github.com/21mahitha',
   linkedin: 'https://linkedin.com/in/kypu',
   skills: [
     'Python', 'Java', 'C',
