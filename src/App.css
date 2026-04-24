@@ -1,0 +1,84 @@
+/* ===== CSS VARIABLES ===== */
+:root {
+  --bg: #0a0a0f;
+  --surface: #13131a;
+  --border: #2a2a3a;
+  --accent: #7c5cfc;
+  --accent-glow: rgba(124, 92, 252, 0.3);
+  --accent2: #00e5c3;
+  --text: #e8e8f0;
+  --text-muted: #888899;
+  --font-display: 'Syne', sans-serif;
+  --font-mono: 'Space Mono', monospace;
+}
+
+/* ===== RESET ===== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-mono);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* ===== LAYOUT ===== */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding-top: 70px; /* offset for fixed navbar */
+}
+
+/* ===== SHARED UTILITIES ===== */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, var(--border), transparent);
+}
+
+/* ===== ANIMATIONS ===== */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 12px var(--accent-glow); }
+  50%       { box-shadow: 0 0 28px var(--accent-glow), 0 0 60px rgba(124,92,252,0.1); }
+}
+
+.fade-up {
+  animation: fadeUp 0.6s ease forwards;
+}
