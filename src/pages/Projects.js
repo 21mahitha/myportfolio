@@ -9,7 +9,7 @@ const PROJECTS = [
       'Built an ML pipeline to predict engine health using the NASA CMAPSS dataset. Applied clustering, classification, and regression for failure prediction and improved maintenance decision-making using a risk scoring system.',
     tech: ['Python', 'Pandas', 'NumPy', 'Scikit-learn', 'VS Code'],
     period: 'May – June 2025',
-    githubUrl: 'https://github.com/mahi21tha',
+    githubUrl: 'https://github.com/21mahitha/Hybrid_Predictive_Maintenance',
     liveUrl: '',
   },
   {
@@ -19,7 +19,7 @@ const PROJECTS = [
       'Developed a deep learning model to predict early onset of sepsis using patient vital signs and clinical parameters. Handled class imbalance and evaluated using Accuracy, Precision, Recall, F1-score, and ROC-AUC.',
     tech: ['Python', 'TensorFlow', 'Keras', 'NumPy', 'Pandas', 'Scikit-learn'],
     period: 'Nov 2025 – Jan 2026',
-    githubUrl: 'https://github.com/mahi21tha',
+    githubUrl: 'https://github.com/21mahitha',
     liveUrl: '',
   },
   {
@@ -29,7 +29,7 @@ const PROJECTS = [
       'Built a deep neural network to detect fraudulent transactions from highly imbalanced financial datasets. Applied resampling techniques and optimized for high recall to minimize false negatives in fraud detection.',
     tech: ['Python', 'TensorFlow', 'Keras', 'Pandas', 'Scikit-learn'],
     period: 'July 2025',
-    githubUrl: 'https://github.com/mahi21tha',
+    githubUrl: 'https://github.com/21mahitha/CreditCard_fraud_detect',
     liveUrl: '',
   },
 ];
