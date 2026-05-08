@@ -41,11 +41,4 @@ portfolio/
 └── package.json
 ```
 
-## ✅ Assignment Checklist
 
-- [x] Home Page with About Me, Research Interests, Personal Details, Profile Picture
-- [x] Projects Page with GitHub links
-- [x] NavLink for routing between pages
-- [x] CSS styling applied throughout
-- [x] HashRouter used (required for GitHub Pages)
-- [x] gh-pages deployment scripts configured
